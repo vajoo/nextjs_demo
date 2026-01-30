@@ -128,6 +128,7 @@ React function (from `react`) used in Server Components to manually cache the re
 ### Metadata in Next.js:
 
 Next.js provides two ways to define metadata for pages and layouts: config-based and file-based. Metadata includes SEO information like title, description, Open Graph tags, and more.
+https://nextjs.org/docs/app/api-reference/file-conventions/metadata
 
 **Config-Based Metadata:**
 Export a `metadata` object or `generateMetadata` function directly from `layout.tsx` or `page.tsx`. The `metadata` object is static, while `generateMetadata` is a function that can generate dynamic metadata based on route parameters or fetched data. This approach keeps metadata co-located with your components.

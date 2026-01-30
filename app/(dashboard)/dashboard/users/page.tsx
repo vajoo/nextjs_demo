@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import Link from "next/link"
+
+// Static metadata for users list page
+export const metadata: Metadata = {
+  title: 'Users - Dashboard',
+  description: 'View and manage all users in the dashboard.',
+}
 
 const Users = () => {
   return (
